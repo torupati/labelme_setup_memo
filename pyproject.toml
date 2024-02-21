@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "labelme-setup"
+version = "0.1.0"
+description = ""
+authors = ["xtkd<xapytotkd@gmail.com>"]
+readme = "README.md"
+packages = [{include = "labelme_setup"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+labelme = "^5.4.1"
+pyqt5-tools = "^5.15.9.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
